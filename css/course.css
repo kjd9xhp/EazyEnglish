@@ -1,0 +1,73 @@
+.course-body-footer{
+	font-family: arial;
+    background-color: #ddd;
+}
+
+.course-link-1{
+	color: #fff;
+	font-weight: lighter;
+	font-size: 14px
+}
+
+.breadcumb{
+	padding: 8px 0px;
+
+}
+
+.course-link-1:hover{
+	color: #ca33c4;
+}
+
+.course-join-now-header-title{
+	color: #fff;
+	font-weight: lighter;
+	font-size: 36px;
+	padding-top: 15px;
+}
+
+.course-join-now-header-title:hover{
+	color: #ca33c4;
+}
+
+.course-join-now-header-content{
+	padding-bottom: 20px;
+    padding-top: 30px;
+	padding-left: 10px;
+}
+
+p{
+	font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.course-like{
+	border-bottom: 1px solid #ddd; 
+	padding-top: 20px;
+	padding-left: 20px;
+	width: 300px;
+	margin-left: 22px;
+}
+
+.course-detail-tab{
+	background-color: #fff;
+	margin-top: 10px;
+    width: 760px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	margin-top: -1px;
+	border-top: 2px solid #0000ff;
+	font-weight: lighter;
+	color: #0000ff;
+}
+
+.nav-tabs>li>a{
+	color: black;
+	font-weight: lighter;
+}
+
+.nav-tabs>li>a:hover{
+	color: #0000ff;
+	background-color: #fff;
+}
+

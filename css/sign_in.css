@@ -1,0 +1,52 @@
+.login-1{
+	width: 340px;
+	height: 600px;
+	text-align: center;
+    margin: 25px 480px;
+    width: 340px;
+    height: 600px;
+}
+
+.login-box{
+	padding-top: 40px;
+    margin-top: 40px;
+    text-align: left;
+    border-top: 1px dotted #ca33c4;
+ }
+
+.form-group{
+    padding-left: 14px;
+    padding-top: 20px;
+    margin-top: -10px;
+    padding-bottom: 20px;
+}
+
+.form-control{
+	width: 340px;
+	border: 1px solid #ca33c4;
+
+}
+
+.checkbox{
+	margin-left: -74px;
+}
+
+.forgot-password{
+	text-align: right;
+    font-style: italic;
+    margin-top: -20px;
+}
+
+.sub-login{
+	color: #ca33c4;
+    font-weight: lighter;
+}
+
+.sub-login:hover{
+	color: #0000ff;
+}
+
+.btn.btn-default.signin:hover{
+    background-color: #0000ff;
+}
+
