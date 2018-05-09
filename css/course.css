@@ -29,6 +29,14 @@
 	color: #ca33c4;
 }
 
+.btn.btn-default.join{
+	width: 360px;
+	height: 80px;
+	font-size: 36px;
+	padding-top: 10px;
+	border-radius: 30px;
+}
+
 .course-join-now-header-content{
 	padding-bottom: 20px;
     padding-top: 30px;
