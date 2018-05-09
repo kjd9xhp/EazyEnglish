@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "HKGrotesk";
+    src: 
+    url("font/HKGrotesk-Regular.otf")
+}
+
+*{
+    font-family: 'HKGrotesk'
+}
