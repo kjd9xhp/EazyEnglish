@@ -16,7 +16,7 @@
 
 a{
     font-size: 16px;
-    color: #ca33c4;
+    color: #de00a5;
     font-weight: bold;
     text-decoration: none;
 }
@@ -31,7 +31,7 @@ a:hover{
 }
 
 .btn-default{
-    background-color: #ca33c4;
+    background-color: #de00a5;
     color: #fff;
     font-size: 16px;
 }
@@ -87,12 +87,12 @@ a:hover{
 }
 
 .btn-join{
-    border: 2px solid #ca33c4;
+    border: 2px solid #de00a5;
     background-color: #fff;
     width: 330px;
     height: 45px;
     font-size: 18px;
-    color: #ca33c4;
+    color: #de00a5;
     font-weight: bold;
 }
 
@@ -111,7 +111,7 @@ a:hover{
     width: 330px;
     height: 45px;
     font-size: 18px;
-    color: #ca33c4;
+    color: #de00a5;
     font-weight: bold;
 }
 
@@ -157,9 +157,9 @@ a:hover{
 }
 
 .list-group-item-2{
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     margin-left: -20px;
-    margin-top: 28px;
+    margin-top: 15px;
 }
 
 .title-footer-2{
