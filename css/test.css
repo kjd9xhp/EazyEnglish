@@ -4,7 +4,7 @@
 
 .test-body-tiltle{
 	height: 62px;
-	border-bottom: 1px solid #ca33c4;
+	border-bottom: 1px solid #de00a5;
 }
 
 .test-body-content{
@@ -14,7 +14,7 @@
     margin-bottom: 50px;
     padding-top: 30px;
     padding-bottom: 20px;
-	border: 1px solid #ca33c4;
+	border: 1px solid #de00a5;
 	border-radius: 10px 10px 10px 10px;
 }
 
@@ -49,12 +49,12 @@
     width: 25px;
     background-color: #fff;
     border-radius: 50%;
-    border: 1px solid #ca33c4;
+    border: 1px solid #de00a5;
 }
 
 /* On mouse-over, add a grey background color */
 .radio-btn:hover input ~ .checkmark {
-    background-color: #ca33c4;
+    background-color: #de00a5;
 }
 
 /* When the radio button is checked, add a blue background */
@@ -81,7 +81,7 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background: #ca33c4;
+    background: #de00a5;
 }
 
 .btn.btn-default.next{
