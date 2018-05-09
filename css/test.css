@@ -18,6 +18,14 @@
 	border-radius: 10px 10px 10px 10px;
 }
 
+.test-body-check{
+    border: 1px solid #ca33c4;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
 .radio-btn {
     display: block;
     position: relative;
