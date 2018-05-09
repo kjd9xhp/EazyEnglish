@@ -81,3 +81,26 @@ p{
 	background-color: #fff;
 }
 
+.course-join-now-footer{
+	overflow: hidden;
+}
+.course-detail-box{
+	overflow: hidden;
+	margin-top: 15px;
+}
+.course-detail-box span{
+	float: left;
+	font-size: 16px;
+}
+.course-detail-box span:nth-child(1){
+	width: 150px;
+	margin-left: 35px;
+}
+.course-detail-box span:nth-child(2){
+}
+.course-detail-box::after{
+	clear: both;
+}
+.course-detail-box:last-child{
+	margin-bottom: 20px;
+}
