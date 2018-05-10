@@ -1,9 +1,9 @@
 @font-face {
-    font-family: "HKGrotesk";
+    font-family: "Roboto";
     src: 
-    url("font/HKGrotesk-Regular.otf")
+    url("font/Roboto-Regular.ttf")
 }
 
 *{
-    font-family: 'HKGrotesk'
+    font-family: 'Roboto'
 }
