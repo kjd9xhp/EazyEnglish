@@ -33,10 +33,9 @@
 
 .btn.btn-default.join{
 	width: 360px;
-	height: 80px;
-	font-size: 36px;
+	height: 60px;
+	font-size: 26px;
 	padding-top: 10px;
-	border-radius: 30px;
 }
 
 .course-join-now-header-content{
@@ -95,6 +94,7 @@ p{
 .course-detail-box span:nth-child(1){
 	width: 150px;
 	margin-left: 35px;
+	font-weight: bold;
 }
 .course-detail-box span:nth-child(2){
 }
