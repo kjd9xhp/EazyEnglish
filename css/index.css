@@ -86,6 +86,11 @@ a:hover{
     color: #fff;
 }
 
+.thumbnail{
+    box-shadow: 3px 3px 0px 0px #635e5e;
+    border-radius: 0px;
+}
+
 .btn-join{
     border: 2px solid #de00a5;
     background-color: #fff;
@@ -119,6 +124,10 @@ a:hover{
     color: #0000ff;
 }
 
+.body-footer{
+    padding-bottom: 20px;
+    margin-bottom: -20px;
+}
 
 .web-footer-1{
     background-color: #262b30;

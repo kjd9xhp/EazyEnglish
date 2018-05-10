@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Danh sách khóa học</title>
+	<link rel="icon" type="image/icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/course.css">
+	<link rel="stylesheet" href="css/list_course.css">
+	<script src="jquery/jquery.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<a href="index.html">
+						<img src="images/abc-english1.jpg" alt="" style="width: 200px">
+					</a>
+				</div>
+				<div class="col-md-7">
+					<ul class="menu-group">
+						<li class="menu-group-lv1">
+							<a href="index.html">Trang chủ</a>
+						</li>
+						<li class="menu-group-lv1">
+							<a href="#">Khóa học</a>
+						</li>
+						<li class="menu-group-lv1">
+							<a href="test.html">Kiểm tra</a>
+						</li>
+						<li class="menu-group-lv1">
+							<a href="#">Kỹ năng</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<div class="search-group">
+						<a href="">
+							<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+						</a>
+					</div>
+					<div class="signin-group">
+						<a class="btn btn-default" href="sign_in.html" role="button">Đăng nhập</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="course-body" style="background-color: #008340;">
+		<div class="container">
+			<div class="course-link">
+				<ol class="breadcrumb" style="background-color: #008340">
+					<li>
+						<a href="index.html" class="course-link-1">Trang Chủ</a>
+					</li>
+					<li class="active" style="color: #fff;">Khóa học</li>
+				</ol>
+			</div>
+			<div class="course-title">
+				<h2 style="color: #fff;padding-left: 14px;">Khóa học</h2>
+			</div>
+		</div>
+	</div>
+	<div class="course-body-footer">
+		<div class="container">
+			<p style="font-weight: bold; font-size: 20px; padding: 20px 0px 0px 0px; border-bottom: 1px dotted #de00a5; color: #de00a5;">Các khóa học phổ biến</p>
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">				
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<div class="row">
+							<div class="col-sm-6 col-md-3">
+								<div class="thumbnail">
+									<a href="course.html">
+										<img src="images/product1.jpg" alt="" style="height: 240px;">
+									</a>
+
+									<div class="caption">
+										<h3 style="font-weight: bold;">Lớp tiếng anh giao tiếp</h3>
+										<p>Nghe nói tiếng Anh tự tin, tự nhiên, lưu loát như người bản xứ</p>
+										<div class="view">
+											<div class="row">
+												<div class="col-md-12">
+													<span class="glyphicon glyphicon-user" aria-hidden="true" style="float: left; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100 000</span>
+													</span>
+													<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true" style="float: right; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100</span>
+													</span>
+													<br/>
+													<br/>
+												</div>
+											</div>
+										</div>
+										<div class="join-group-1">
+											<a href="sign_in.html">
+												<button type="button" class="btn-join">Tham gia ngay</button>
+											</a>
+										</div>
+										<div class="join-group-2">
+											<a href="course.html">
+												<button type="button" class="btn-detail">Chi tiết khóa học</button>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-3">
+								<div class="thumbnail">
+									<a href="course.html">
+										<img src="images/product2.jpg" alt="" style="height: 240px;">
+									</a>
+									<div class="caption">
+										<h3 style="font-weight: bold;">Lớp tiếng anh giao tiếp</h3>
+										<p>Nghe nói tiếng Anh tự tin, tự nhiên, lưu loát như người bản xứ</p>
+										<div class="view">
+											<div class="row">
+												<div class="col-md-12">
+													<span class="glyphicon glyphicon-user" aria-hidden="true" style="float: left; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100 000</span>
+													</span>
+													<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true" style="float: right; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100</span>
+													</span>
+													<br/>
+													<br/>
+												</div>
+											</div>
+										</div>
+										<div class="join-group-1">
+											<a href="sign_in.html">
+												<button type="button" class="btn-join">Tham gia ngay</button>
+											</a>
+										</div>
+										<div class="join-group-2">
+											<a href="course.html">
+												<button type="button" class="btn-detail">Chi tiết khóa học</button>
+											</a>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-3">
+								<div class="thumbnail">
+									<a href="course.html">
+										<img src="images/product3.jpg" alt="" style="height: 240px;">
+									</a>
+									<div class="caption">
+										<h3 style="font-weight: bold;">Lớp tiếng anh giao tiếp</h3>
+										<p>Nghe nói tiếng Anh tự tin, tự nhiên, lưu loát như người bản xứ</p>
+										<div class="view">
+											<div class="row">
+												<div class="col-md-12">
+													<span class="glyphicon glyphicon-user" aria-hidden="true" style="float: left; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100 000</span>
+													</span>
+													<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true" style="float: right; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100</span>
+													</span>
+													<br/>
+													<br/>
+												</div>
+											</div>
+										</div>
+										<div class="join-group-1">
+											<a href="sign_in.html">
+												<button type="button" class="btn-join">Tham gia ngay</button>
+											</a>
+										</div>
+										<div class="join-group-2">
+											<a href="course.html">
+												<button type="button" class="btn-detail">Chi tiết khóa học</button>
+											</a>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-3">
+								<div class="thumbnail">
+									<a href="course.html">
+										<img src="images/product4.jpg" alt="" style="height: 240px;">
+									</a>
+									<div class="caption">
+										<h3 style="font-weight: bold;">Lớp tiếng anh giao tiếp</h3>
+										<p>Nghe nói tiếng Anh tự tin, tự nhiên, lưu loát như người bản xứ</p>
+										<div class="view">
+											<div class="row">
+												<div class="col-md-12">
+													<span class="glyphicon glyphicon-user" aria-hidden="true" style="float: left; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100 000</span>
+													</span>
+													<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true" style="float: right; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100</span>
+													</span>
+													<br/>
+													<br/>
+												</div>
+											</div>
+										</div>
+										<div class="join-group-1">
+											<a href="sign_in.html">
+												<button type="button" class="btn-join">Tham gia ngay</button>
+											</a>
+										</div>
+										<div class="join-group-2">
+											<a href="course.html">
+												<button type="button" class="btn-detail">Chi tiết khóa học</button>
+											</a>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>						
+						<div class="carousel-caption">
+						</div>
+					</div>
+					<div class="item">
+						<div class="row">
+							<div class="col-sm-6 col-md-3">
+								<div class="thumbnail">
+									<a href="course.html">
+										<img src="images/product5.jpg" alt="" style="height: 240px;">
+									</a>
+
+									<div class="caption">
+										<h3 style="font-weight: bold;">Lớp tiếng anh giao tiếp</h3>
+										<p>Nghe nói tiếng Anh tự tin, tự nhiên, lưu loát như người bản xứ</p>
+										<div class="view">
+											<div class="row">
+												<div class="col-md-12">
+													<span class="glyphicon glyphicon-user" aria-hidden="true" style="float: left; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100 000</span>
+													</span>
+													<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true" style="float: right; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100</span>
+													</span>
+													<br/>
+													<br/>
+												</div>
+											</div>
+										</div>
+										<div class="join-group-1">
+											<a href="sign_in.html">
+												<button type="button" class="btn-join">Tham gia ngay</button>
+											</a>
+										</div>
+										<div class="join-group-2">
+											<a href="course.html">
+												<button type="button" class="btn-detail">Chi tiết khóa học</button>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-3">
+								<div class="thumbnail">
+									<a href="course.html">
+										<img src="images/product6.jpg" alt="" style="height: 240px;">
+									</a>
+									<div class="caption">
+										<h3 style="font-weight: bold;">Lớp tiếng anh giao tiếp</h3>
+										<p>Nghe nói tiếng Anh tự tin, tự nhiên, lưu loát như người bản xứ</p>
+										<div class="view">
+											<div class="row">
+												<div class="col-md-12">
+													<span class="glyphicon glyphicon-user" aria-hidden="true" style="float: left; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100 000</span>
+													</span>
+													<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true" style="float: right; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100</span>
+													</span>
+													<br/>
+													<br/>
+												</div>
+											</div>
+										</div>
+										<div class="join-group-1">
+											<a href="sign_in.html">
+												<button type="button" class="btn-join">Tham gia ngay</button>
+											</a>
+										</div>
+										<div class="join-group-2">
+											<a href="course.html">
+												<button type="button" class="btn-detail">Chi tiết khóa học</button>
+											</a>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-3">
+								<div class="thumbnail">
+									<a href="course.html">
+										<img src="images/product7.jpg" alt="" style="height: 240px;">
+									</a>
+									<div class="caption">
+										<h3 style="font-weight: bold;">Lớp tiếng anh giao tiếp</h3>
+										<p>Nghe nói tiếng Anh tự tin, tự nhiên, lưu loát như người bản xứ</p>
+										<div class="view">
+											<div class="row">
+												<div class="col-md-12">
+													<span class="glyphicon glyphicon-user" aria-hidden="true" style="float: left; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100 000</span>
+													</span>
+													<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true" style="float: right; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100</span>
+													</span>
+													<br/>
+													<br/>
+												</div>
+											</div>
+										</div>
+										<div class="join-group-1">
+											<a href="sign_in.html">
+												<button type="button" class="btn-join">Tham gia ngay</button>
+											</a>
+										</div>
+										<div class="join-group-2">
+											<a href="course.html">
+												<button type="button" class="btn-detail">Chi tiết khóa học</button>
+											</a>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-3">
+								<div class="thumbnail">
+									<a href="course.html">
+										<img src="images/product8.jpg" alt="" style="height: 240px;">
+									</a>
+									<div class="caption">
+										<h3 style="font-weight: bold;">Lớp tiếng anh giao tiếp</h3>
+										<p>Nghe nói tiếng Anh tự tin, tự nhiên, lưu loát như người bản xứ</p>
+										<div class="view">
+											<div class="row">
+												<div class="col-md-12">
+													<span class="glyphicon glyphicon-user" aria-hidden="true" style="float: left; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100 000</span>
+													</span>
+													<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true" style="float: right; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100</span>
+													</span>
+													<br/>
+													<br/>
+												</div>
+											</div>
+										</div>
+										<div class="join-group-1">
+											<a href="sign_in.html">
+												<button type="button" class="btn-join">Tham gia ngay</button>
+											</a>
+										</div>
+										<div class="join-group-2">
+											<a href="course.html">
+												<button type="button" class="btn-detail">Chi tiết khóa học</button>
+											</a>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-caption">
+						</div>
+					</div>
+				</div>
+
+				<!-- Controls -->
+				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="margin-top: -16px;"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="margin-top: -16px;"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+			<p style="font-weight: bold; font-size: 20px; padding: 20px 0px 0px 0px; border-bottom: 1px dotted #de00a5; color: #de00a5;">Các khóa học giao tiếp</p>
+			<div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">				
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<div class="row">
+							<div class="col-sm-6 col-md-3">
+								<div class="thumbnail">
+									<a href="course.html">
+										<img src="images/product1.jpg" alt="" style="height: 240px;">
+									</a>
+
+									<div class="caption">
+										<h3 style="font-weight: bold;">Lớp tiếng anh giao tiếp</h3>
+										<p>Nghe nói tiếng Anh tự tin, tự nhiên, lưu loát như người bản xứ</p>
+										<div class="view">
+											<div class="row">
+												<div class="col-md-12">
+													<span class="glyphicon glyphicon-user" aria-hidden="true" style="float: left; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100 000</span>
+													</span>
+													<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true" style="float: right; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100</span>
+													</span>
+													<br/>
+													<br/>
+												</div>
+											</div>
+										</div>
+										<div class="join-group-1">
+											<a href="sign_in.html">
+												<button type="button" class="btn-join">Tham gia ngay</button>
+											</a>
+										</div>
+										<div class="join-group-2">
+											<a href="course.html">
+												<button type="button" class="btn-detail">Chi tiết khóa học</button>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-3">
+								<div class="thumbnail">
+									<a href="course.html">
+										<img src="images/product2.jpg" alt="" style="height: 240px;">
+									</a>
+									<div class="caption">
+										<h3 style="font-weight: bold;">Lớp tiếng anh giao tiếp</h3>
+										<p>Nghe nói tiếng Anh tự tin, tự nhiên, lưu loát như người bản xứ</p>
+										<div class="view">
+											<div class="row">
+												<div class="col-md-12">
+													<span class="glyphicon glyphicon-user" aria-hidden="true" style="float: left; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100 000</span>
+													</span>
+													<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true" style="float: right; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100</span>
+													</span>
+													<br/>
+													<br/>
+												</div>
+											</div>
+										</div>
+										<div class="join-group-1">
+											<a href="sign_in.html">
+												<button type="button" class="btn-join">Tham gia ngay</button>
+											</a>
+										</div>
+										<div class="join-group-2">
+											<a href="course.html">
+												<button type="button" class="btn-detail">Chi tiết khóa học</button>
+											</a>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-3">
+								<div class="thumbnail">
+									<a href="course.html">
+										<img src="images/product3.jpg" alt="" style="height: 240px;">
+									</a>
+									<div class="caption">
+										<h3 style="font-weight: bold;">Lớp tiếng anh giao tiếp</h3>
+										<p>Nghe nói tiếng Anh tự tin, tự nhiên, lưu loát như người bản xứ</p>
+										<div class="view">
+											<div class="row">
+												<div class="col-md-12">
+													<span class="glyphicon glyphicon-user" aria-hidden="true" style="float: left; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100 000</span>
+													</span>
+													<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true" style="float: right; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100</span>
+													</span>
+													<br/>
+													<br/>
+												</div>
+											</div>
+										</div>
+										<div class="join-group-1">
+											<a href="sign_in.html">
+												<button type="button" class="btn-join">Tham gia ngay</button>
+											</a>
+										</div>
+										<div class="join-group-2">
+											<a href="course.html">
+												<button type="button" class="btn-detail">Chi tiết khóa học</button>
+											</a>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-3">
+								<div class="thumbnail">
+									<a href="course.html">
+										<img src="images/product4.jpg" alt="" style="height: 240px;">
+									</a>
+									<div class="caption">
+										<h3 style="font-weight: bold;">Lớp tiếng anh giao tiếp</h3>
+										<p>Nghe nói tiếng Anh tự tin, tự nhiên, lưu loát như người bản xứ</p>
+										<div class="view">
+											<div class="row">
+												<div class="col-md-12">
+													<span class="glyphicon glyphicon-user" aria-hidden="true" style="float: left; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100 000</span>
+													</span>
+													<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true" style="float: right; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100</span>
+													</span>
+													<br/>
+													<br/>
+												</div>
+											</div>
+										</div>
+										<div class="join-group-1">
+											<a href="sign_in.html">
+												<button type="button" class="btn-join">Tham gia ngay</button>
+											</a>
+										</div>
+										<div class="join-group-2">
+											<a href="course.html">
+												<button type="button" class="btn-detail">Chi tiết khóa học</button>
+											</a>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>						
+						<div class="carousel-caption">
+						</div>
+					</div>
+					<div class="item">
+						<div class="row">
+							<div class="col-sm-6 col-md-3">
+								<div class="thumbnail">
+									<a href="course.html">
+										<img src="images/product5.jpg" alt="" style="height: 240px;">
+									</a>
+
+									<div class="caption">
+										<h3 style="font-weight: bold;">Lớp tiếng anh giao tiếp</h3>
+										<p>Nghe nói tiếng Anh tự tin, tự nhiên, lưu loát như người bản xứ</p>
+										<div class="view">
+											<div class="row">
+												<div class="col-md-12">
+													<span class="glyphicon glyphicon-user" aria-hidden="true" style="float: left; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100 000</span>
+													</span>
+													<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true" style="float: right; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100</span>
+													</span>
+													<br/>
+													<br/>
+												</div>
+											</div>
+										</div>
+										<div class="join-group-1">
+											<a href="sign_in.html">
+												<button type="button" class="btn-join">Tham gia ngay</button>
+											</a>
+										</div>
+										<div class="join-group-2">
+											<a href="course.html">
+												<button type="button" class="btn-detail">Chi tiết khóa học</button>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-3">
+								<div class="thumbnail">
+									<a href="course.html">
+										<img src="images/product6.jpg" alt="" style="height: 240px;">
+									</a>
+									<div class="caption">
+										<h3 style="font-weight: bold;">Lớp tiếng anh giao tiếp</h3>
+										<p>Nghe nói tiếng Anh tự tin, tự nhiên, lưu loát như người bản xứ</p>
+										<div class="view">
+											<div class="row">
+												<div class="col-md-12">
+													<span class="glyphicon glyphicon-user" aria-hidden="true" style="float: left; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100 000</span>
+													</span>
+													<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true" style="float: right; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100</span>
+													</span>
+													<br/>
+													<br/>
+												</div>
+											</div>
+										</div>
+										<div class="join-group-1">
+											<a href="sign_in.html">
+												<button type="button" class="btn-join">Tham gia ngay</button>
+											</a>
+										</div>
+										<div class="join-group-2">
+											<a href="course.html">
+												<button type="button" class="btn-detail">Chi tiết khóa học</button>
+											</a>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-3">
+								<div class="thumbnail">
+									<a href="course.html">
+										<img src="images/product7.jpg" alt="" style="height: 240px;">
+									</a>
+									<div class="caption">
+										<h3 style="font-weight: bold;">Lớp tiếng anh giao tiếp</h3>
+										<p>Nghe nói tiếng Anh tự tin, tự nhiên, lưu loát như người bản xứ</p>
+										<div class="view">
+											<div class="row">
+												<div class="col-md-12">
+													<span class="glyphicon glyphicon-user" aria-hidden="true" style="float: left; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100 000</span>
+													</span>
+													<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true" style="float: right; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100</span>
+													</span>
+													<br/>
+													<br/>
+												</div>
+											</div>
+										</div>
+										<div class="join-group-1">
+											<a href="sign_in.html">
+												<button type="button" class="btn-join">Tham gia ngay</button>
+											</a>
+										</div>
+										<div class="join-group-2">
+											<a href="course.html">
+												<button type="button" class="btn-detail">Chi tiết khóa học</button>
+											</a>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-3">
+								<div class="thumbnail">
+									<a href="course.html">
+										<img src="images/product8.jpg" alt="" style="height: 240px;">
+									</a>
+									<div class="caption">
+										<h3 style="font-weight: bold;">Lớp tiếng anh giao tiếp</h3>
+										<p>Nghe nói tiếng Anh tự tin, tự nhiên, lưu loát như người bản xứ</p>
+										<div class="view">
+											<div class="row">
+												<div class="col-md-12">
+													<span class="glyphicon glyphicon-user" aria-hidden="true" style="float: left; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100 000</span>
+													</span>
+													<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true" style="float: right; font-size: 18px; margin-right: 10px;">
+														<span style="font-size: 18px;">100</span>
+													</span>
+													<br/>
+													<br/>
+												</div>
+											</div>
+										</div>
+										<div class="join-group-1">
+											<a href="sign_in.html">
+												<button type="button" class="btn-join">Tham gia ngay</button>
+											</a>
+										</div>
+										<div class="join-group-2">
+											<a href="course.html">
+												<button type="button" class="btn-detail">Chi tiết khóa học</button>
+											</a>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-caption">
+						</div>
+					</div>
+				</div>
+
+				<!-- Controls -->
+				<a class="left carousel-control" href="#carousel-example-generic1" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="margin-top: -16px;"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#carousel-example-generic1" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="margin-top: -16px;"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="web-footer-1">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+						<div class="col-md-10">
+							<div class="image-logo-footer">
+								<img src="images/abc-english1.jpg" alt="" style="height: 80px;">
+							</div>
+							<div class="title-footer">
+								<span style="color: white">Eazy English</span> là website được tạo ra nhằm mục đích giúp bạn luyện phát âm tiếng Anh theo giọng chuẩn Mỹ và
+								giúp bạn có cơ hội học và hiểu thấu đáo toàn bộ nội dung của một ngày học trong quỹ thời gian hạn hẹp mà bạn có.
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="title-footer-1">
+							Về chúng tôi
+						</div>
+						<div class="menu-footer">
+							<ul class="list-group-1">
+								<li class="list-group-item-2">
+									<a href="index.html" class="list-group-item-1">Trang chủ</a>
+								</li>
+								<li class="list-group-item-2">
+									<a href="" class="list-group-item-1">Giới thiệu</a>
+								</li>
+								<li class="list-group-item-2">
+									<a href="" class="list-group-item-1">Tin tức</a>
+								</li>
+								<li class="list-group-item-2">
+									<a href="" class="list-group-item-1">Hướng dẫn</a>
+								</li>
+								<li class="list-group-item-2">
+									<a href="" class="list-group-item-1">Chính sách & điều khoản</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="folow">
+							<div class="title-footer-2">
+								Liên hệ với chúng tôi
+							</div>
+							<div class="image-folow">
+								<a href="">
+									<img src="images/facebook.png" alt="">
+								</a>
+								<a href="">
+									<img src="images/twitter.png" alt="">
+								</a>
+								<a href="">
+									<img src="images/youtube.png" alt="">
+								</a>
+								<a href="">
+									<img src="images/google.png" alt="">
+								</a>
+								<a href="">
+									<img src="images/tumblr.png" alt="">
+								</a>
+							</div>
+							<div class="app-folow">
+								<a href="">
+									<img src="images/android.png" alt="">
+								</a>
+								<a href="">
+									<img src="images/appstore.png" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="web-footer-2">
+			<div class="container">
+				<div class="copyright-text">
+					© 2017 - 2018 Nhóm 3 - Thiết kế giao diện
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
