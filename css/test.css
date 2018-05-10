@@ -85,7 +85,7 @@
 /* Style the indicator (dot/circle) */
 .radio-btn .checkmark:after {
  	top: 4px;
-    left: 4.8px;
+    left: 4px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
